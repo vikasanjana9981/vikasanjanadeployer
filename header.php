@@ -31,7 +31,7 @@
 
 		<div class="logo">
 			<img src="http://localhost/project/wp-content/uploads/2024/01/logo.png" alt="">
-			This is demo commits here
+			This is demo commits here demo
 		</div>
 
 		<div class="sideContainer">
