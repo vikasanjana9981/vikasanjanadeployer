@@ -15,4 +15,4 @@ jobs:
 
     - name: Run your custom action
       run: |
-        curl -X GET https://yoursite.com/wp-json/custom/v1/trigger-action/
+        curl -X GET https://245d-2409-4043-4d0a-ce62-69cd-e1fe-4bf3-eec1.ngrok-free.app/project/?wppusher-hook&token=d776c597697193d4f5c2459af717a731bd1a579e21b07610b37eceda30175cd2&package=dmlrYXNhbmphbmFkZXBsb3llcg==
