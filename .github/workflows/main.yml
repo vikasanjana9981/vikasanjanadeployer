@@ -1,0 +1,18 @@
+name: Trigger Action on Main Branch Commit
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Run your custom action
+      run: |
+        curl -X POST http://localhost/project/?wppusher-hook&token=d776c597697193d4f5c2459af717a731bd1a579e21b07610b37eceda30175cd2&package=dmlrYXNhbmphbmFkZXBsb3llcg==
