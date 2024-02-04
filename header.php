@@ -32,6 +32,7 @@
 		<div class="logo">
 			<img src="http://localhost/project/wp-content/uploads/2024/01/logo.png" alt="">
 			Here is new changes
+			Hello good is here
 		</div>
 
 		<div class="sideContainer">
